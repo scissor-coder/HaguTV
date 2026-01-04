@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>হাইজিন প্রো | আধুনিক টয়লেট ব্যবহারের নির্দেশিকা</title>
+    <!-- Tailwind CSS for robust, bug-free styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Hind SiliguSiliguriri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --font-main: 'Hind Siliguri', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: #f8fafc;
+            color: #0f172a;
+            overflow-x: hidden;
+        }
+
+        .gradient-brand {
+            background: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+        }
+
+        .card-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+        }
+
+        .step-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .step-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.06);
+        }
+
+        /* Fixed: Improved line spacing for Bengali script glyphs */
+        p { line-height: 1.8; }
+        h1, h2, h3 { line-height: 1.4; }
+
+        .blob-bg {
+            position: absolute;
+            z-index: -1;
+            filter: blur(80px);
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Decorative Elements -->
+    <div class="blob-bg bg-sky-200 w-96 h-96 -top-20 -right-20"></div>
+    <div class="blob-bg bg-teal-100 w-96 h-96 bottom-0 -left-20"></div>
+
+    <!-- Header Section -->
+    <header class="gradient-brand text-white py-20 px-6 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center justify-center p-4 bg-white/10 backdrop-blur-md rounded-3xl mb-8 border border-white/20">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                </svg>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">আধুনিক স্বাস্থ্যবিধি গাইড</h1>
+            <p class="text-xl md:text-2xl opacity-90 font-light leading-relaxed max-w-2xl mx-auto">
+                আপনার স্বাস্থ্য এবং সামাজিক সুরক্ষায় টয়লেটের সঠিক ব্যবহারের একটি সম্পূর্ণ চিত্রিত নির্দেশিকা।
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        
+        <!-- Step Group 1: Preparation -->
+        <section class="mb-24">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+                <div>
+                    <span class="text-sky-600 font-bold uppercase tracking-widest text-sm mb-2 block">অংশ ০১</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800">শুরু করার প্রস্তুতি</h2>
+                </div>
+                <div class="h-1 flex-grow bg-slate-100 hidden md:block mb-4 ml-6 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Step Card -->
+                <div class="step-card bg-white p-8 rounded-[2rem] card-shadow border border-slate-100 flex flex-col">
+                    <div class="w-14 h-14 bg-sky-500 text-white rounded-2xl flex items-center justify-center font-bold text-2xl mb-6 shadow-lg shadow-sky-200">১</div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-800">সরঞ্জাম পরীক্ষা করুন</h3>
+                    <p class="text-slate-600 mb-8 flex-grow">বসার আগেই দেখে নিন টয়লেট পেপার পর্যাপ্ত আছে কি না কিংবা পানির কল বা বিডেট ঠিকমতো কাজ করছে কি না।</p>
+                    <div class="bg-slate-50 rounded-2xl p-8 flex justify-center items-center">
+                        <svg viewBox="0 0 100 80" class="w-32 h-32" fill="none" stroke="#0284c7" stroke-width="3">
+                            <rect x="30" y="10" width="40" height="50" rx="6" />
+                            <path d="M30 40h40M45 25h10" stroke-linecap="round"/>
+                            <circle cx="50" cy="45" r="4" fill="#0284c7"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="step-card bg-white p-8 rounded-[2rem] card-shadow border border-slate-100 flex flex-col">
+                    <div class="w-14 h-14 bg-teal-500 text-white rounded-2xl flex items-center justify-center font-bold text-2xl mb-6 shadow-lg shadow-teal-200">২</div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-800">ঢাকনা ও সিটের ব্যবহার</h3>
+                    <p class="text-slate-600 mb-8 flex-grow">কমোডের ঢাকনা সাবধানে তুলুন। দাঁড়িয়ে ব্যবহারের ক্ষেত্রে সিটটিও তুলে রাখুন যাতে পরবর্তী জনের জন্য তা পরিচ্ছন্ন থাকে।</p>
+                    <div class="bg-slate-50 rounded-2xl p-8 flex justify-center items-center">
+                        <svg viewBox="0 0 100 80" class="w-32 h-32" fill="none" stroke="#0d9488" stroke-width="3">
+                            <ellipse cx="50" cy="55" rx="30" ry="15" />
+                            <path d="M25 45 L 50 15 L 75 45" stroke-dasharray="4 2" />
+                            <path d="M45 15 L 50 10 L 55 15" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step Group 2: After Use -->
+        <section class="mb-24">
+            <div class="flex items-center gap-4 mb-12">
+                <div class="w-2 h-10 bg-emerald-500 rounded-full"></div>
+                <h2 class="text-3xl font-bold text-slate-800">ব্যবহার পরবর্তী পরিচ্ছন্নতা</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="step-card bg-white p-8 rounded-3xl card-shadow border border-slate-50">
+                    <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">৩. সঠিক পদ্ধতি</h3>
+                    <p class="text-slate-600 text-sm">পরিচ্ছন্নতার সময় সর্বদা সামনে থেকে পেছনের দিক অনুসরণ করুন। এটি স্বাস্থ্যসম্মত এবং নিরাপদ।</p>
+                </div>
+
+                <div class="step-card bg-white p-8 rounded-3xl card-shadow border border-slate-50">
+                    <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">৪. ঢাকনা বন্ধ ও ফ্লাশ</h3>
+                    <p class="text-slate-600 text-sm">ফ্লাশ করার আগে ঢাকনা বন্ধ করুন। এতে টয়লেটের জীবাণু বাষ্প হয়ে বাতাসে ছড়িয়ে পড়া বন্ধ হয়।</p>
+                </div>
+
+                <div class="step-card bg-white p-8 rounded-3xl card-shadow border border-slate-50">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">৫. চূড়ান্ত পর্যবেক্ষণ</h3>
+                    <p class="text-slate-600 text-sm">বের হওয়ার আগে একবার দেখে নিন সবকিছু পরিষ্কার হয়েছে কি না। পরের জনের জন্য পরিচ্ছন্ন পরিবেশ রেখে যান।</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Step: High Impact Section -->
+        <section class="relative bg-slate-900 rounded-[3rem] p-10 md:p-20 text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top_right,#0d9488_0%,transparent_50%)]"></div>
+            
+            <div class="relative z-10 flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-3/5">
+                    <span class="inline-block px-4 py-1 bg-teal-500/20 text-teal-300 rounded-full font-bold text-xs tracking-tighter mb-6">সবচেয়ে গুরুত্বপূর্ণ ধাপ</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">৬. সাবান দিয়ে হাত ধোয়া</h2>
+                    <p class="text-xl text-slate-400 mb-10 leading-relaxed">
+                        ব্যবহার শেষে সাবান দিয়ে অন্তত ২০ সেকেন্ড ধরে হাত ধুয়ে নিন। মনে রাখবেন, কেবল পানি জীবাণু দূর করতে পারে না। নখের কোণা ও আঙুলের ফাঁক ভালোভাবে পরিষ্কার করুন।
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-white/5 backdrop-blur-sm border border-white/10 px-6 py-4 rounded-2xl">
+                            <span class="text-teal-400 font-bold text-2xl block">২০ সে.</span>
+                            <span class="text-xs text-slate-500 uppercase">ন্যূনতম সময়</span>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-sm border border-white/10 px-6 py-4 rounded-2xl">
+                            <span class="text-teal-400 font-bold text-2xl block">১০০%</span>
+                            <span class="text-xs text-slate-500 uppercase">জীবাণু মুক্তি</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-2/5 flex justify-center items-center">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80">
+                        <div class="absolute inset-0 bg-teal-500/30 blur-[100px] animate-pulse"></div>
+                        <svg viewBox="0 0 200 200" class="w-full h-full text-teal-400 drop-shadow-2xl">
+                            <path d="M60 140 Q 40 100 70 80 T 100 60" stroke="currentColor" stroke-width="4" fill="none" />
+                            <path d="M140 140 Q 160 100 130 80 T 100 60" stroke="currentColor" stroke-width="4" fill="none" />
+                            <circle cx="100" cy="90" r="10" fill="currentColor" opacity="0.4" />
+                            <circle cx="80" cy="120" r="5" fill="currentColor" opacity="0.2" />
+                            <circle cx="120" cy="110" r="8" fill="currentColor" opacity="0.3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white py-16 px-6 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block p-2 bg-slate-100 rounded-full mb-6">
+                <div class="bg-white px-4 py-1 rounded-full text-xs font-bold text-slate-500 uppercase tracking-widest">Hygiene Standards 2026</div>
+            </div>
+            <h4 class="text-2xl font-bold text-slate-800 mb-4">পরিচ্ছন্নতা বজায় রাখুন</h4>
+            <p class="text-slate-400 max-w-lg mx-auto mb-10">এটি কেবল একটি নির্দেশিকা নয়, এটি আমাদের সুস্থ থাকার প্রতিশ্রুতি। পরিষ্কার থাকুন, সুস্থ থাকুন।</p>
+            <div class="pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+                <p>&copy; ২০২৬ হাইজিন প্রো শিক্ষা পোর্টাল।</p>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-sky-600 transition-colors">গোপনীয়তা নীতি</a>
+                    <a href="#" class="hover:text-sky-600 transition-colors">যোগাযোগ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+  </html>
